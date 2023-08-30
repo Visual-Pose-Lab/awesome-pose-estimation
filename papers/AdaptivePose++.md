@@ -8,7 +8,7 @@
 + (b) CenterNet提出的center-to-joint身体表示
 + (c) SPM提出的分等级身体表示法
 + (d) adaptIve points
-对比结果(网络模型参数量都不相同)：
+对比结果(网络模型不相同)：
 <div align="center">
   <img src="./attachment/AdaptivePoseComparison20230730182635.png" width="50%" height="50%" align=center />
 </div>
