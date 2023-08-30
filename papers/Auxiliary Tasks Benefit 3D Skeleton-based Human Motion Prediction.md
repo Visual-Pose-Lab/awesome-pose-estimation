@@ -30,7 +30,8 @@ Auxiliary Task: Masked Motion Prediction, Denoise Motion
 **Token embedding:** 
 关节位置    Joint Position Embedding  $W_{J,j} \in R^{F}$ 
 时间戳      Timestamp Embedding     $W_{T,t} \in R^F$
-掩码        Masked Token Embedding $W_M \in R^F$
+掩码        Masked Token Embedding  $W_M \in R^F$
+
 $$
 h^t_j=
 \begin{cases}
@@ -44,7 +45,10 @@ As the spatial relationship between joints and the temporal relation between tim
 Spatial attention considers features of the same timestamp, while temporal attention considers features of the same joint.
 由于关节之间的空间关系和时间戳之间的时间关系具有不同的模式，我们使用空间和时间注意力机制分别对空间和时间依赖关系进行建模。空间注意力考虑相同时间戳的特征，而时间注意力考虑相同关节的特征。
 
-![AttentionFormula](./attachment/AttentionFormula20230825191651.png)
+<div align="center">
+	 <img src="./attachment/AttentionFormula20230825191651.png" width = "50%" height = "50%" alt="AttentionFormula" align=center />
+</div>
+
 
 ### Auxiliary-Adapted Transformer
 + instead of solely using full spatial-temporal attention, we **additionally incorporate observed-only spatialtemporal attention**. The intuition is modeling spatial-temporal dependencies inner observed coordinates provides more correlations to improve the ability to infer spatialtemporal dependencies between observed and masked coordinates; 
@@ -53,8 +57,10 @@ Spatial attention considers features of the same timestamp, while temporal atten
 **Effect of masking & noise ratios.** 
 i) setting masking and noising ratios that are either too low or too high results in suboptimal performance, as the auxiliary tasks become either too easy or too difficult, rendering them unsuitable for model learning; 
 ii) a moderate masking and noising ratio yielded the best results, with **an appropriate masking ratio range of 0.3 to 0.7 and an appropriate noising ratio range of 0.2 to 0.6.**
+<div align="center">
+	 <img src="./attachment/Results20230825192217.png" width = "50%" height = "50%" alt="Results20230825192217" align=center />
+</div>
 
-![Results20230825192217](./attachment/Results20230825192217.png)
 ## Results
 ![Results20230825192419](./attachment/Results20230825192419.png)
 
