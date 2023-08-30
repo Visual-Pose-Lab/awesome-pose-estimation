@@ -23,7 +23,9 @@ Auxiliary Task: Masked Motion Prediction, Denoise Motion
 	由于网络的主要参数量在特征学习层，而特征学习层的参数是共享的，辅助任务的Regress Head 是非常简单的所以网络整体上不会增加太多的参数量。
 
 ### Structure Details
+
 ![StructureDetails](./attachment/StructureDetails20230825184804.png)
+
 **Coordinate encoding:** 简单的Linear 对坐标进行编码
 **Token embedding:** 
 关节位置    Joint Position Embedding  $W_{J,j} \in R^{F}$ 
@@ -41,7 +43,9 @@ $$
 As the spatial relationship between joints and the temporal relation between timestamps have different patterns, we use spatial and temporal attention mechanisms to model the spatial and temporal dependencies separately.
 Spatial attention considers features of the same timestamp, while temporal attention considers features of the same joint.
 由于关节之间的空间关系和时间戳之间的时间关系具有不同的模式，我们使用空间和时间注意力机制分别对空间和时间依赖关系进行建模。空间注意力考虑相同时间戳的特征，而时间注意力考虑相同关节的特征。
+
 ![AttentionFormula](./attachment/AttentionFormula20230825191651.png)
+
 ### Auxiliary-Adapted Transformer
 + instead of solely using full spatial-temporal attention, we **additionally incorporate observed-only spatialtemporal attention**. The intuition is modeling spatial-temporal dependencies inner observed coordinates provides more correlations to improve the ability to infer spatialtemporal dependencies between observed and masked coordinates; 
 + instead of performing observed-only and full spatial-temporal attention separately for L times, we employ an **iterative** approach because interaction with masked coordinate features can also enhance observed features.
