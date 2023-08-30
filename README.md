@@ -14,7 +14,7 @@
 ### 3D Pose estimation
 + Occlusion-Aware Networks for 3D Human Pose Estimation in Video(ICCV 2019) [github]()
 + **ECCV 2022** [P-STMO: Pre-Trained Spatial Temporal Many-to-One Model for 3D Human Pose Estimation.](https://arxiv.org/abs/2203.07628) [🖥️GitHub](https://github.com/paTRICK-swk/P-STMO)
-+ (AuxFormer)Auxiliary Tasks Benefit 3D Skeleton-based Human Motion Prediction(ICCV 2023) [github](https://github.com/MediaBrain-SJTU/AuxFormer)(comming soon) [arxiv](https://arxiv.org/abs/2308.08942) [note](./papers/AuxFormer.md)
++ (AuxFormer)Auxiliary Tasks Benefit 3D Skeleton-based Human Motion Prediction(ICCV 2023) [github](https://github.com/MediaBrain-SJTU/AuxFormer)(comming soon) [arxiv](https://arxiv.org/abs/2308.08942) [📖](./papers/AuxFormer.md)
 + MPM: A Unified 2D-3D Human Pose Representation via Masked Pose Modeling [github](https://github.com/vvirgooo2/MPM) [arxiv](https://arxiv.org/abs/2306.17201)
 + 
 
