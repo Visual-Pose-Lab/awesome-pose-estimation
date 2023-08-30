@@ -50,15 +50,18 @@
 + 取得的结果进行 Hadamard 积，实际使用 P 软注意力 mask 与 F 的特征进行了特征聚合
 
 ### Body part segmentation labels
-
-![PAREBodyPart](./attachment/PAREBodyPart20230821141324.png)
+<div align="center">
+	<img src="./attachment/PAREBodyPart20230821141324.png" width="50%" height="50%" align=center />
+</div>
 
 + The part segmentation labels are obtained through rendering segmented SMPL meshes, as visualized in Fig. 4. We use 24 parts corresponding to 24 SMPL joints. See Sup. Mat. for samples of part segmentation labels. We used the PyTorch reimplementation of Neural Mesh Renderer to render the parts. For samples without a part segmentation label, we do not supervise the 2 D branch.
 	通过绘制分割后的 SMPL 网格获得部位分割标签，如图所示。我们使用24个部位对应24个 SMPL 接头。我们使用 PyTorch 重新实现的神经网格渲染器来渲染部件。对于没有零件分割标签的样品，我们不监督二维分支。
 
-![Result20230821142204](./attachment/Result20230821142204.png)
+<div align="center">
+	<img src="./attachment/Result20230821142204.png" width="50%" height="50%" align=center />
+</div>
 
-### Train
+## Train
 
 ![PARETrain20230821142543](./attachment/PARETrain20230821142543.png)
 
@@ -66,8 +69,11 @@
 + random crop
 + extract data 
 
-### Result
-![PAREResult20230821142833](./attachment/PAREResult20230821142833.png)
-![PAREResult20230821142757](./attachment/PAREResult20230821142757.png)
-![PAREResult20230821142859](./attachment/PAREResult20230821142859.png)
+## Result
+<div align="center">
+	<img src="./attachment/PAREResult20230821142833.png" width="50%" height="50%" align=center />
+	<img src="./attachment/PAREResult20230821142757.png" width="50%" height="50%" align=center />
+	<img src="./attachment/PAREResult20230821142859.png" width="50%" height="50%" align=center />
+</div>
+
 ![PAREResult20230821142914](./attachment/PAREResult20230821142914.png)
