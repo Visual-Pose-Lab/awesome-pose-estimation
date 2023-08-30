@@ -29,10 +29,10 @@ $$
 	$M_i$ 是关键点热图的 GT，关键点被遮挡时定义为零，不被遮挡时定义为第 i 个关键点的热图对应峰值点。
 + For each heatmap $\tilde{M_i}$, we choose the peak response point  $\tilde{p_i}$ with a confidence score of $C_{i}$ as a candidate for the $i$ th keypoint. To further improve the occlusion estimation, we apply optical flow , and record the flow vector as $\tilde{o_{i}}$ .  First network also processes the next frame, and the location difference of keypoint i in the neighboring frames is defined as $\tilde{d_{i}}$ .
 	针对每一个热图，通过每一个热图的峰值相应点的置信度来作为关键点的候选点。为了提高对遮挡点估计的准确性，收集关键点 i 对应的光流向量以及计算两帧之间估计的关键点的向量，在置信度的计算中加入两者差值，以增强网络对遮挡的理解。
-+ 第 i 个关键点的置信度 $C_{i}^{\star}$ 如下，当 $C_{i}^{\star}$ 低于阈值 b 时，被认定为被遮挡点。
++ 第 i 个关键点的置信度 $C_{i}^{\ast}$ 如下，当 $C_{i}^{\ast}$ 低于阈值 b 时，被认定为被遮挡点。
 
 $$
-C_i^{\star}=C_{i}exp(-\frac{{\|\vec{o_i}-\vec{d_i}\|^2_{2}}}{2\sigma^2})
+C_i^{\ast}=C_{i}exp(-\frac{{\|\vec{o_i}-\vec{d_i}\|^2_{2}}}{2\sigma^2})
 $$
 
 ### Second Network (2D TCN)
