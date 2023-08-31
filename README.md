@@ -9,12 +9,12 @@
 ## Papers
 
 ### 2D Pose estimation
-+ [AdaptivePose++: A Powerful Single-Stage Network for Multi-Person Pose Regression](https://arxiv.org/abs/2210.04014) [<img src="https://cdn.worldvectorlogo.com/logos/github-icon-1.svg" width="15" height="15"/>](https://github.com/buptxyb666/AdaptivePose) [📖](./papers/AdaptivePose++.md)
++ [AdaptivePose++: A Powerful Single-Stage Network for Multi-Person Pose Regression](https://arxiv.org/abs/2210.04014) [<img src="https://cdn.worldvectorlogo.com/logos/github-icon-1.svg" width="15" height="15"/>](https://github.com/buptxyb666/AdaptivePose) [:memo:](./papers/AdaptivePose++.md)
 
 ### 3D Pose estimation
 + **ICCV 2019** [Occlusion-Aware Networks for 3D Human Pose Estimation in Video]() [<img src="https://cdn.worldvectorlogo.com/logos/github-icon-1.svg" width="15" height="15"/>]()
 + **ECCV 2022** [P-STMO: Pre-Trained Spatial Temporal Many-to-One Model for 3D Human Pose Estimation.](https://arxiv.org/abs/2203.07628) [<img src="https://cdn.worldvectorlogo.com/logos/github-icon-1.svg" width="15" height="15"/>](https://github.com/paTRICK-swk/P-STMO)
-+ **ICCV 2023** [(AuxFormer)Auxiliary Tasks Benefit 3D Skeleton-based Human Motion Prediction](https://arxiv.org/abs/2308.08942) [<img src="https://cdn.worldvectorlogo.com/logos/github-icon-1.svg" width="15" height="15"/>](https://github.com/MediaBrain-SJTU/AuxFormer)(comming soon) [📖](./papers/AuxFormer.md)
++ **ICCV 2023** [(AuxFormer)Auxiliary Tasks Benefit 3D Skeleton-based Human Motion Prediction](https://arxiv.org/abs/2308.08942) [<img src="https://cdn.worldvectorlogo.com/logos/github-icon-1.svg" width="15" height="15"/>](https://github.com/MediaBrain-SJTU/AuxFormer)(comming soon) [:memo:](./papers/AuxFormer.md)
 + [MPM: A Unified 2D-3D Human Pose Representation via Masked Pose Modeling](https://arxiv.org/abs/2306.17201) [<img src="https://cdn.worldvectorlogo.com/logos/github-icon-1.svg" width="15" height="15"/>](https://github.com/vvirgooo2/MPM)
 + 
 
