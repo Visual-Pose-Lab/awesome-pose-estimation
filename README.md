@@ -38,5 +38,6 @@
 
 
 ## Other Resource
-### Blog posts
+### Blog Posts
 - [A 2019 guide to Human Pose Estimation with Deep Learning](https://blog.nanonets.com/human-pose-estimation-2d-guide/?from=timeline&isappinstalled=0)
+- [人体姿态估计的过去，现在，未来 (by俞刚)](https://zhuanlan.zhihu.com/p/85506259)
