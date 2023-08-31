@@ -9,13 +9,13 @@
 ## Papers
 
 ### 2D Pose estimation
-+ AdaptivePose++: A Powerful Single-Stage Network for Multi-Person Pose Regression [github](https://github.com/buptxyb666/AdaptivePose) [arxiv](https://arxiv.org/abs/2210.04014) [note](./papers/AdaptivePose++.md)
++ [AdaptivePose++: A Powerful Single-Stage Network for Multi-Person Pose Regression](https://arxiv.org/abs/2210.04014) [<img src="https://cdn.worldvectorlogo.com/logos/github-icon-1.svg" width="15" height="15"/>](https://github.com/buptxyb666/AdaptivePose) [📖](./papers/AdaptivePose++.md)
 
 ### 3D Pose estimation
-+ Occlusion-Aware Networks for 3D Human Pose Estimation in Video(ICCV 2019) [github]()
++ **ICCV 2019** [Occlusion-Aware Networks for 3D Human Pose Estimation in Video]() [<img src="https://cdn.worldvectorlogo.com/logos/github-icon-1.svg" width="15" height="15"/>]()
 + **ECCV 2022** [P-STMO: Pre-Trained Spatial Temporal Many-to-One Model for 3D Human Pose Estimation.](https://arxiv.org/abs/2203.07628) [<img src="https://cdn.worldvectorlogo.com/logos/github-icon-1.svg" width="15" height="15"/>](https://github.com/paTRICK-swk/P-STMO)
-+ (AuxFormer)Auxiliary Tasks Benefit 3D Skeleton-based Human Motion Prediction(ICCV 2023) [github](https://github.com/MediaBrain-SJTU/AuxFormer)(comming soon) [arxiv](https://arxiv.org/abs/2308.08942) [📖](./papers/AuxFormer.md)
-+ MPM: A Unified 2D-3D Human Pose Representation via Masked Pose Modeling [github](https://github.com/vvirgooo2/MPM) [arxiv](https://arxiv.org/abs/2306.17201)
++ **ICCV 2023** [(AuxFormer)Auxiliary Tasks Benefit 3D Skeleton-based Human Motion Prediction](https://arxiv.org/abs/2308.08942) [<img src="https://cdn.worldvectorlogo.com/logos/github-icon-1.svg" width="15" height="15"/>](https://github.com/MediaBrain-SJTU/AuxFormer)(comming soon) [📖](./papers/AuxFormer.md)
++ [MPM: A Unified 2D-3D Human Pose Representation via Masked Pose Modeling](https://arxiv.org/abs/2306.17201) [<img src="https://cdn.worldvectorlogo.com/logos/github-icon-1.svg" width="15" height="15"/>](https://github.com/vvirgooo2/MPM)
 + 
 
 ## Datasets
