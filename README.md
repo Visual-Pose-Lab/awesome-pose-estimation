@@ -19,6 +19,12 @@
 + 
 
 ### GCN
++ **ICCV 2019** [Exploiting Spatial-temporal Relationships for 3D Pose Estimation via Graph Convolutional Networks.](https://arxiv.org/pdf/2007.10599.pdf) [:octocat:](https://github.com/vanoracai/Exploiting-Spatial-temporal-Relationships-for-3D-Pose-Estimation-via-Graph-Convolutional-Networks)
++ **ICCV 2021** [Modulated Graph Convolutional Network for 3D Human Pose Estimation.](https://openaccess.thecvf.com/content/ICCV2021/papers/Zou_Modulated_Graph_Convolutional_Network_for_3D_Human_Pose_Estimation_ICCV_2021_paper.pdf) [:octocat:](https://github.com/ZhimingZo/Modulated-GCN)
++ **ICCV 2023** [GLA-GCN: Global-local Adaptive Graph Convolutional Network for 3D Human
+Pose Estimation from Monocular Video.](https://arxiv.org/pdf/2307.05853.pdf) [:octocat:](https://github.com/bruceyo/GLA-GCN)
++ **CVPR 2019** [Semantic Graph Convolutional Networks for 3D Human Pose Regression.](https://arxiv.org/pdf/1904.03345.pdf) [:octocat:](https://github.com/garyzhao/SemGCN)
++ **CVPR 2022** [GraFormer: Graph Convolution Transformer for 3D Pose Estimation.](https://arxiv.org/pdf/2109.08364.pdf) [:octocat:](https://github.com/Graformer/GraFormer)
 
 ## Datasets
 ### 2D
