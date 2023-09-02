@@ -18,6 +18,8 @@
 + [MPM: A Unified 2D-3D Human Pose Representation via Masked Pose Modeling](https://arxiv.org/abs/2306.17201) [:octocat:](https://github.com/vvirgooo2/MPM)
 + 
 
+### GCN
+
 ## Datasets
 ### 2D
 - [MPII Human Pose Dataset](http://human-pose.mpi-inf.mpg.de/)
