@@ -63,8 +63,7 @@ To achieve classification, they propose to uniformly discretize each continuous 
 ## Label smoothing:
 
 adopt Label smoothing for SimCC, which is called equal label smoothing in this paper. However, equal label smoothing punishes the false labels indiscriminately, which has ignored the spatial relevance of adjacent labels for the task of human pose estimation. A more reasonable solution is supposed to encourage the model to work in this way: the closer the output category is to the groundtruth, the better. To address this issue, they also explore to use Laplace or Gaussian label smoothing, resulting in smoothed labels following corresponding distribution. Unless noted otherwise, SimCC is used as the abbreviation for the variant with equal label smoothing .
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/081f6618-b643-4c9c-ad73-41c61ae95120/978da193-1dc2-43d4-86b6-eb9982cf2628/Untitled.png)
+![Figure.3](https://github.com/Visual-Pose-Lab/awesome-pose-estimation/assets/73063807/89c4202d-6f54-4370-bac9-b2319a1b8f3f)
 
 # Experiment:
 
