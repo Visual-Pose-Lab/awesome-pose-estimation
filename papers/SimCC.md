@@ -45,8 +45,7 @@ The different from heatmap-based approaches which may introduce multiple deconvo
 
 # Pipeline:
 
-![The pipeline of SimCC](https://github.com/Visual-Pose-Lab/awesome-pose-estimation/blob/main/papers/attachment/image.png?raw=true)
-
+[The Pipeline of SimCC](https://github.com/Visual-Pose-Lab/awesome-pose-estimation/blob/main/papers/attachment/ThePipeLineofSimCC.png)
                                                                                                                                                                                                   
 
 ## Backbone:
