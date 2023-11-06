@@ -10,6 +10,7 @@
 
 ### 2D Pose estimation
 + [AdaptivePose++: A Powerful Single-Stage Network for Multi-Person Pose Regression](https://arxiv.org/abs/2210.04014) [:octocat:](https://github.com/buptxyb666/AdaptivePose) [:memo:](./papers/AdaptivePose++.md)
++ [SimCC: a Simple Coordinate Classification Perspective for Human Pose Estimation](https://arxiv.org/pdf/2107.03332.pdf)
 
 ### 3D Pose estimation
 + **ICCV 2019** [Occlusion-Aware Networks for 3D Human Pose Estimation in Video]() [:octocat:]()
