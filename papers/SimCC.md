@@ -66,12 +66,9 @@ adopt Label smoothing for SimCC, which is called equal label smoothing in this p
 ![Figure.3](https://github.com/Visual-Pose-Lab/awesome-pose-estimation/assets/73063807/89c4202d-6f54-4370-bac9-b2319a1b8f3f)
 
 # Experiment:
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/081f6618-b643-4c9c-ad73-41c61ae95120/1e98f6b7-9d95-44a0-bf4b-9f0acf6db64d/Untitled.png)
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/081f6618-b643-4c9c-ad73-41c61ae95120/928909af-0ed7-4a93-acf8-124ef2b47bb6/Untitled.png)
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/081f6618-b643-4c9c-ad73-41c61ae95120/71f68e0b-0d48-48e4-8c24-eb93539248f7/Untitled.png)
+![Table.1](https://github.com/Visual-Pose-Lab/awesome-pose-estimation/assets/73063807/4b8b1ae3-36ff-4017-bedb-7141f9825821)
+![Table.2](https://github.com/Visual-Pose-Lab/awesome-pose-estimation/assets/73063807/1aa5cc4a-496d-4fed-9173-14e9090820a1)
+![Table.3](https://github.com/Visual-Pose-Lab/awesome-pose-estimation/assets/73063807/9320f9fa-a098-4208-8f29-6678c1bf7e27)
 
 1) Heatmap-based approaches rely seriously on post-processing for refinement, which brings extra computational cost and complicates the whole process;
 
@@ -83,7 +80,8 @@ adopt Label smoothing for SimCC, which is called equal label smoothing in this p
 
 The splitting factor $k$ controls the how many bins per pixel in SimCC. Specifically, the larger $k$  is, the smaller the quantization error of SimCC is. Nevertheless, model training becomes more difficult when  $k$  increases. Hence, there is a trade-off between the quantization error and the model performance. We test $k ∈ {1, 2, 3, 4}$  based on SimpleBaseline  and HRNet  under various input resolutions. model performance tends to increase first and then decrease as  $k$ grows. For HRNet-W32, the recommended settings are $k = 2$ for both $128×128$ and $256×192$ input size. For SimBa-Res50 , the recommended settings are $k = 3$ and $k = 2$  for $128×128$ and $256×192$ input size, respectively.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/081f6618-b643-4c9c-ad73-41c61ae95120/cdaa655a-30df-4c15-a483-7a14f0cf80c0/Untitled.png)
+![Figure.4](https://github.com/Visual-Pose-Lab/awesome-pose-estimation/assets/73063807/d3f1286d-ad83-46be-bfda-3b0d55e2fe9f)
+
 
 ## Upsampling modules:
 
@@ -91,13 +89,15 @@ Upsampling modules are usually computational costly and substantially slow down 
 
 compared to heatmap, SimCC allows one to remove the costly deconvolution layers of SimpleBaseline, resulting in consistent computational cost reduction across various input resolutions.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/081f6618-b643-4c9c-ad73-41c61ae95120/ff5a58cf-d37a-44a2-8998-46e8e1e46d32/Untitled.png)
+![Table.4](https://github.com/Visual-Pose-Lab/awesome-pose-estimation/assets/73063807/fe94bd01-0e65-4f07-b8b4-7c6875c777d8)
+
 
 ## Label smoothing:
 
 Label smoothing  is a commonly used strategy to improve generalization for the task of classification. To investigate its effect on our proposed method, we train SimpleBaseline-Res50  based on SimCC with various label smoothing strategies: {w/o, equal, Gaussian, Laplace}. Table 5 demonstrates that label smoothing strategy does make a difference. Therefore, a promising way to further improve SimCC may be replacing the heuristic label smoothing strategy in a self-adaptive way. Further discussion is out the scope of this paper and we regard it as future work.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/081f6618-b643-4c9c-ad73-41c61ae95120/e5a7f81d-12f0-404f-a821-5ad0281edf07/Untitled.png)
+![Table.5](https://github.com/Visual-Pose-Lab/awesome-pose-estimation/assets/73063807/f2f23bc6-689a-416f-b0c0-ec80e3c847ad)
+
 
 # Limitation and Future Work
 
