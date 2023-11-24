@@ -12,7 +12,7 @@
 + [AdaptivePose++: A Powerful Single-Stage Network for Multi-Person Pose Regression](https://arxiv.org/abs/2210.04014) [:octocat:](https://github.com/buptxyb666/AdaptivePose) [:memo:](./papers/AdaptivePose++.md)
 + **ECCV 2022** [SimCC: a Simple Coordinate Classification Perspective for Human Pose Estimation](https://arxiv.org/pdf/2107.03332.pdf)  [:memo:](./papers/SimCC.md)
 + **CVPR 2023** [Self-Correctable and Adaptable Inference for Generalizable Human Pose Estimation.md](https://arxiv.org/pdf/2303.11180v2.pdf)
-[:memo:](./papers/Self-Correctable_and_Adaptable_Inference_for_Generalizable_Human_Pose_Estimation.md)
+[:memo:](papers/Self-Correctable_and_Adaptable_Inference_for_Generalizable_Human_Pose_Estimaton.md)
 ### 3D Pose estimation
 + **ICCV 2019** [Occlusion-Aware Networks for 3D Human Pose Estimation in Video]() [:octocat:]()
 + **ECCV 2022** [P-STMO: Pre-Trained Spatial Temporal Many-to-One Model for 3D Human Pose Estimation.](https://arxiv.org/abs/2203.07628) [:octocat:](https://github.com/paTRICK-swk/P-STMO)
